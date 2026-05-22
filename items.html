@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Items &amp; Recettes · Isle of Berk Codex</title>
+  <meta name="description" content="Objets craftables du mod Isle of Berk : Filtre d'amour, Belzium, Gronckle Iron, Dragon Staff, Écaille-Compas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Caveat:wght@400;600&family=Noto+Sans+Runic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="vignette"></div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="brand" aria-label="Accueil">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path class="brand-mark" d="M16 2 L19 13 L30 13 L21 20 L24 31 L16 24 L8 31 L11 20 L2 13 L13 13 Z"/>
+          <circle class="brand-dot" cx="16" cy="16" r="2.5"/>
+        </svg>
+        <span>Codex Draconum</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="bestiaire.html">Bestiaire</a>
+        <a href="dressage.html">Dressage</a>
+        <a href="items.html" aria-current="page">Items</a>
+        <a href="nids.html">Nids</a>
+        <a href="lore.html">Colophon</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="craft">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Capvt III · Forge et alchimie</span>
+          <div class="section-head__row">
+            <h2>Items &amp; Recettes</h2>
+            <span class="marginalia">craft, brassage &amp; obtention</span>
+          </div>
+        </div>
+
+        <!-- FILTRE D'AMOUR -->
+        <div class="recipe">
+          <div class="recipe__head">
+            <p class="recipe__name">Filtre d'amour</p>
+            <span class="recipe__type">Brassage alchimique</span>
+          </div>
+          <div class="recipe__ingredients">
+            <span class="ingredient"><img class="ingredient__img" src="assets/items/belzium.png" alt="">Belzium</span>
+            <span class="recipe__plus">+</span>
+            <span class="ingredient"><img class="ingredient__img" src="assets/items/potion.png" alt="">Awkward Potion</span>
+            <span class="recipe__arrow">→</span>
+            <span class="recipe__output"><img class="ingredient__img" src="assets/items/love_potion.png" alt="">Filtre d'amour</span>
+          </div>
+        </div>
+        <ol class="steps" style="margin-bottom:2rem;">
+          <li>Mine du <strong>Belzium</strong> dans The End (Endstone Y 0–60, pioche nétherite ou Gronckle Iron).</li>
+          <li>Brasse le Filtre d'amour : <strong>Belzium + Awkward Potion</strong> dans un alambic.</li>
+          <li>Trouve une <strong>Light Fury sauvage</strong> (plaines ou biomes ouverts).</li>
+          <li>Clic droit sur la Light Fury sauvage avec le Filtre — elle te donne l'<strong>Écaille-Compas</strong>.</li>
+          <li>L'Écaille-Compas indique la direction du <strong>Night Fury légendaire</strong> dans The End.</li>
+          <li>Suis la boussole jusqu'au Night Fury légendaire et apprivoise-le (Tier IV : potion Vision nocturne + saumon/morue, sans armure ni arme).</li>
+        </ol>
+
+        <!-- ÉCAILLE-COMPAS -->
+        <div class="recipe">
+          <div class="recipe__head">
+            <p class="recipe__name">Écaille-Compas</p>
+            <span class="recipe__type">Obtenu via la Light Fury</span>
+          </div>
+          <div class="recipe__ingredients">
+            <span class="ingredient"><img class="ingredient__img" src="assets/items/love_potion.png" alt="">Filtre d'amour</span>
+            <span class="recipe__plus">+</span>
+            <span class="ingredient">Light Fury sauvage</span>
+            <span class="recipe__arrow">→</span>
+            <span class="recipe__output"><img class="ingredient__img" src="assets/items/scale_compass.png" alt="">Écaille-Compas</span>
+          </div>
+        </div>
+        <p style="margin-bottom:2rem;color:var(--parchment-dim);">
+          Indique en temps réel la direction du Night Fury légendaire dans The End. S'affiche dans le HUD quand tu le tiens en main.
+        </p>
+
+        <!-- BELZIUM -->
+        <div class="recipe">
+          <div class="recipe__head">
+            <p class="recipe__name">Belzium</p>
+            <span class="recipe__type">Extraction · The End</span>
+          </div>
+          <div class="recipe__ingredients">
+            <span class="ingredient"><img class="ingredient__img" src="assets/items/end_stone.png" alt="">Endstone Y 0–60</span>
+            <span class="recipe__plus">·</span>
+            <span class="ingredient"><img class="ingredient__img" src="assets/items/netherite_pickaxe.png" alt="">Pioche nétherite ou Gronckle Iron</span>
+            <span class="recipe__arrow">→</span>
+            <span class="recipe__output"><img class="ingredient__img" src="assets/items/belzium.png" alt="">Belzium</span>
+          </div>
+        </div>
+        <p style="margin-bottom:2rem;color:var(--parchment-dim);">
+          Minerai exclusif de The End. Requiert une pioche en nétherite ou en Gronckle Iron minimum pour être miné.
+        </p>
+
+        <!-- GRONCKLE IRON -->
+        <div class="recipe">
+          <div class="recipe__head">
+            <p class="recipe__name">Gronckle Iron</p>
+            <span class="recipe__type">Minerai · N'importe quelle pioche</span>
+          </div>
+          <p style="margin:0.5rem 0 1rem;color:var(--parchment-dim);">
+            Minerai présent dans l'Overworld (Y −20 à 60) — miner avec n'importe quelle pioche
+            pour obtenir du <em>Raw Gronckle Iron</em>.<br>
+            <strong>Autre méthode :</strong> donne de la pierre, cobblestone, gravier, andésite, granite, diorite,
+            deepslate ou blackstone à un Gronckle <strong>apprivoisé</strong> — il mâche et recrache
+            1 <em>Raw Gronckle Iron</em> après ~3 secondes.
+          </p>
+          <div class="recipe__grid-wrap">
+            <div class="recipe__grid">
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/glowstone_dust.png" alt="" title="Glowstone Dust"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/glowstone_dust.png" alt="" title="Glowstone Dust"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/glowstone_dust.png" alt="" title="Glowstone Dust"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/raw_gronckle_iron.png" alt="" title="Raw Gronckle Iron"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/sandstone.png" alt="" title="Sandstone"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/iron_ingot.png" alt="" title="Iron Ingot"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/sandstone.png" alt="" title="Sandstone"></div>
+            </div>
+            <span class="recipe__grid-arrow">→</span>
+            <div class="recipe__cell recipe__cell--output"><img class="recipe__cell__img" src="assets/items/gronckle_iron.png" alt="" title="Gronckle Iron"></div>
+          </div>
+        </div>
+        <p style="margin-bottom:2rem;color:var(--parchment-dim);">
+          Transforme le Raw Gronckle Iron en lingot utilisable via ce craft (ou fourneau / alto-fourneau).
+        </p>
+
+        <!-- DRAGON STAFF -->
+        <div class="recipe">
+          <div class="recipe__head">
+            <p class="recipe__name">Dragon Staff</p>
+            <span class="recipe__type">Craft façonné · Table de craft</span>
+          </div>
+          <div class="recipe__grid-wrap">
+            <div class="recipe__grid">
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/gronckle_iron.png" alt="" title="Gronckle Iron"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/amethyst_shard.png" alt="" title="Amethyst Shard"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/stick.png" alt="" title="Stick"></div>
+              <div class="recipe__cell"></div>
+            </div>
+            <span class="recipe__grid-arrow">→</span>
+            <div class="recipe__cell recipe__cell--output"><img class="recipe__cell__img" src="assets/items/dragon_staff.png" alt="" title="Dragon Staff"></div>
+          </div>
+        </div>
+        <p style="color:var(--parchment-dim);">
+          Clic droit → téléporte ton dragon apprivoisé (Y+8, sol solide).
+          Fonctionne <strong>cross-dimension</strong> (Overworld / Nether / End).
+        </p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span class="marginalia">— Codex Draconum, scriptorium de Berk —</span>
+      <span>Mod NeoForge 1.21.1 · GeckoLib 4 · GACMD &amp; Akeltroll</span>
+    </div>
+    <div class="site-footer__legal">
+      <p>Site fan non officiel — présentation du port NeoForge 1.21.1 du mod Isle of Berk, réalisé par Akeltroll. Mod original par GACMD &amp; ses scribes.</p>
+      <p>How to Train Your Dragon © DreamWorks Animation — aucune affiliation commerciale. Aucun cookie · Aucun traçage · Aucune donnée collectée.</p>
+    </div>
+  </footer>
+</body>
+</html>
