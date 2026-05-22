@@ -1,0 +1,39 @@
+{{Dragon|title1=Hideous Zippleback|Taming_Food=Salmon, cod, or tropical fish|Taming_Conditions=No equipped armor or weapons
+Strength effect on player|Spawn_rate=A. 6 (Common)
+
+
+B. 1 (Rare)|Biomes=A. Sparse Jungles
+
+
+B. Ice Spikes, Snowy Plains, Swamps|Health=100 (50 hearts)|Damage=6 (3 hearts)|Walking=0.4|Flying=0.14|Reg_Ability=Gas breath|Special_Ability=Spark breath {Lights Gas}|Ridable=Yes|Breeding_food=Suspicious stew|Breeding_cooldown=80 minutes|Hatching_time=160 minutes|Growing_time=83 minutes|image=Pistill.webp|caption-image=Pistill Variant|Armor=0|pack_size=A. 2-3
+
+B. 0-1}}
+
+== Trivia ==
+
+* Naming any Hideous Zippleback "Barf and Belch" with a nametag causes it to change into the Pistill (11) variant
+* Most of the skins are references to different characters from the games, with variants 5, 7 being references to dragons in Rise of Berk, and variant 2 being a reference to the character from School of Dragons
+* Variant 6 is a reference to the dragon owned by Bucket and Mulch in the How to Train you Dragon TV series
+* Variant 10 "Kandy 'n' Kane" is unobtainable outside of the /summon command.
+/summon isleofberk:zippleback ~ ~ ~ {variant:#}
+
+== Image gallery ==
+<gallery>
+File:Sandr.webp|Variant 1 "Sandr"
+File:Fart n' sniff.webp|Variant 2 "Fart n' sniff"
+File:Hodd.webp|Variant 3 "Hodd"
+File:Hjarta Zippleback.webp|Variant 4 "Hjarta"
+File:Exiled Zippleback.webp|Variant 5 "Exiled"
+File:Whip n' lash.webp|Variant 6 "Whip n' lash"
+File:Zippleback 7.png|Variant 7 "Leaf 'n' Bark"
+File:Variant 7 Zippleback.png|Variant 8 "Purple 'n' Nurple"
+File:Hamfeist.webp|Variant 9 "Hamfeist"
+File:Variant 8 Zippleback.png|Variant 10 "Kandy 'n' Kane"
+File:Pistill.webp|Variant 11 "Pistill"
+</gallery>
+
+
+== Reference ==
+<ref>[https://gacmdteam.wixsite.com/isleofberk/dragons] Images</ref>
+<references />
+[[Category:Tier Four]]

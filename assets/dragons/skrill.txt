@@ -1,0 +1,39 @@
+{{Dragon|title1=Skrill|Taming_Food=Salmon, cod, or tropical fish|Taming_Conditions=Fight until surrender (20 hearts)|Spawn_rate=5 (Uncommon)|Biomes=A> Snowy Slopes, Jagged Peaks , Frozen Peaks. Stony Peaks|Health=60 (30 hearts)|Armor=2 (1 icon)|Damage=4 (2 hearts)|Walking=0.2|Flying=0.17|Reg_Ability=Lightning bolt|Special_Ability=Lightning coat|Ridable=Yes|Breeding_food=Suspicious stew|Breeding_cooldown=60 minutes|Hatching_time=40 minutes|Growing_time=83 minutes|image=Skrill.webp|caption-image=Skrill Variant|pack_size=0-1}}
+
+=== Table of contents ===
+
+# Trivia
+# Image gallery
+
+== Trivia ==
+
+* There is a rare albino variant of the Skrill with a 1/1000 spawnrate
+* When struck by lightning its ability sets off
+* There is now 13 variants.
+/summon isleofberk:skrill ~ ~ ~ {variant:#}
+
+== Image gallery ==
+<gallery>
+File:Skrill black.webp|Variant 1 "Stormshadow"
+File:Skrill blue.webp|Variant 2 "Icebane"
+File:Skrill brown.webp|Variant 3 "Fryrir?
+File:Skrill crimson.png|Variant 4 "Crimson"
+File:Skrill cyan.png|Variant 5 "Nemesis?
+File:Skrill gold.webp|Variant 6 "Tempest?
+File:Skrill green.png|Variant 7 "Pickle"
+File:Skrill red.webp|Variant 8 "Zen?
+File:Skrill yellow.webp|Variant 9 "Spark?
+File:Skrill albino.webp|Variant 10 "Albino"
+File:Variant 11 Skrill.png|Variant 11 "Moonshock"
+File:Variant 12 Skrill.png|Variant 12 "Springstorm"
+File:Skrill.webp|Variant 13 "Skrill"
+File:Side by Side.png|A side by side comparison of Variant 1 and Variant 13
+</gallery>
+
+
+== References ==
+<ref>[https://gacmdteam.wixsite.com/isleofberk/dragons]Images</ref>
+
+Variants 4, 5, and 7 by NaniTheDucc
+<references />
+[[Category:Tier Three]]

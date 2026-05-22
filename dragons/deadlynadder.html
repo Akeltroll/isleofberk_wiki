@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Deadly Nadder · Isle of Berk Codex</title>
+  <meta name="description" content="Deadly Nadder : élégance et magnésium, lance des piques dorsales en arc parabolique. Tier II.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Caveat:wght@400;600&family=Noto+Sans+Runic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="vignette"></div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="../index.html" class="brand" aria-label="Accueil">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path class="brand-mark" d="M16 2 L19 13 L30 13 L21 20 L24 31 L16 24 L8 31 L11 20 L2 13 L13 13 Z"/>
+          <circle class="brand-dot" cx="16" cy="16" r="2.5"/>
+        </svg>
+        <span>Codex Draconum</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="../bestiaire.html">Bestiaire</a>
+        <a href="../dressage.html">Dressage</a>
+        <a href="../nids.html">Nids</a>
+        <a href="../lore.html">Colophon</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="dragon-hero" data-tier="2">
+      <img src="../assets/dragons/deadlynadder.webp" alt="Deadly Nadder — vue de profil" onerror="this.style.display='none'">
+      <div class="dragon-hero__overlay" aria-hidden="true"></div>
+      <div class="dragon-hero__text">
+        <div>
+          <h1 class="dragon-hero__title">Deadly Nadder</h1>
+          <span class="dragon-hero__epithet">élégance et magnésium</span>
+        </div>
+        <div class="dragon-hero__badge">Tier II · Volant</div>
+      </div>
+    </section>
+
+    <section class="container" style="padding-top:2.5rem;">
+      <div class="stats-visual" aria-label="Caractéristiques">
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Points de vie</span><span class="stat__value">50</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:50%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Dégâts</span><span class="stat__value">8</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:80%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Armure</span><span class="stat__value">2</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:10%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Vitesse sol</span><span class="stat__value">0.40</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:80%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Vitesse vol</span><span class="stat__value">0.14</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:47%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Description</h2><span class="index">§ 1</span></div>
+        <p class="lede">Lance des piques dorsales en arc parabolique. Le dragon le plus diversifié du codex.</p>
+        <p>
+          Douze variantes — la variante « Stormfly » est obtenue en nommant un Nadder via
+          étiquette de nom (référence à Astrid). Mortel à distance grâce à ses piques (20
+          dégâts par paire), il sait aussi cracher du feu en mêlée.
+        </p>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Capacités</h2><span class="index">§ 2</span></div>
+        <div class="ability-grid">
+          <div class="ability-card">
+            <span class="key-badge">R</span>
+            <div>
+              <h3 class="ability-card__name">Fire Breath</h3>
+              <p class="ability-card__desc">Souffle de feu utilitaire à courte portée. Pour le combat à distance, le Nadder préfère ses piques.</p>
+              <div class="ability-card__stats">
+                <span><strong>Type</strong> : souffle continu</span>
+              </div>
+            </div>
+          </div>
+          <div class="ability-card">
+            <span class="key-badge">X</span>
+            <div>
+              <h3 class="ability-card__name">Spine Shot — Tir de Piques Dorsales</h3>
+              <p class="ability-card__desc">Lance des paires de piques (<code>DeadlyNadderSpike</code>) en arc parabolique. Spawn à hauteur des yeux (S32 fix), direction = regard direct, vitesses 5.0/4.0. La parabole permet de toucher derrière des couverts bas.</p>
+              <div class="ability-card__stats">
+                <span><strong>Dégâts</strong> : 20 par paire</span>
+                <span><strong>Trajectoire</strong> : arc parabolique</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Apprivoisement</h2><span class="index">§ 3</span></div>
+        <p><strong>Tier II — La main tendue.</strong><br>
+        <strong>Nourriture :</strong> Poulet (au moins 30 morceaux).<br>
+        <strong>Conditions :</strong> Aucune armure ni arme équipée.</p>
+        <ol class="steps">
+          <li>Trouve un Nadder sauvage (très commun en plaines).</li>
+          <li>Retire armure et arme.</li>
+          <li>Tiens du poulet en main et clic droit, encore et encore (×30+).</li>
+          <li>La barre monte ; au seuil 100, 1 chance sur 7 par interaction.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Reproduction</h2><span class="index">§ 4</span></div>
+        <div class="stats-visual" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr));padding:1rem 0;">
+          <div class="stat"><div class="stat__head"><span class="stat__label">Repro.</span><span class="stat__value" style="font-size:1rem;">Ragoût suspect</span></div></div>
+          <div class="stat"><div class="stat__head"><span class="stat__label">Cooldown</span><span class="stat__value">40 min</span></div></div>
+          <div class="stat"><div class="stat__head"><span class="stat__label">Éclosion</span><span class="stat__value">20 min</span></div></div>
+          <div class="stat"><div class="stat__head"><span class="stat__label">Croissance</span><span class="stat__value">100 min</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Habitat (4 groupes)</h2><span class="index">§ 5</span></div>
+        <p>
+          <strong>A.</strong> Snowy Plains, Meadows.<br>
+          <strong>B.</strong> Windswept Hills, Windswept Forests, Windswept Gravelly Hills.<br>
+          <strong>C.</strong> Sparse Jungles, Savannas.<br>
+          <strong>D.</strong> Groves, Flower Forests, Birch Forests.
+        </p>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Variantes (12)</h2><span class="index">§ 6</span></div>
+        <div class="variant-grid">
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadder.webp" alt="Deadly Nadder" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 1</p><p class="variant-card__name">Deadly Nadder</p><p class="variant-card__desc">Bleu standard</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadderB1.webp" alt="Kingstail" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 2</p><p class="variant-card__name">Kingstail</p><p class="variant-card__desc">Pourpre royal</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadderB2.webp" alt="Scardian" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 3</p><p class="variant-card__name">Scardian</p><p class="variant-card__desc">Marbré sombre</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadderB3.webp" alt="Springshedder" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 4</p><p class="variant-card__name">Springshedder</p><p class="variant-card__desc">Vert printanier</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadderB4.webp" alt="Hjarta" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 5</p><p class="variant-card__name">Hjarta</p><p class="variant-card__desc">Tons de cœur ardent</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadderB5.webp" alt="Bork Week" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 6</p><p class="variant-card__name">Bork Week</p><p class="variant-card__desc">Variante festive</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadderB6.webp" alt="Flystorm" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 7</p><p class="variant-card__name">Flystorm</p><p class="variant-card__desc">Tempête volante</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadderB7.webp" alt="Hjaldr" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 8</p><p class="variant-card__name">Hjaldr</p><p class="variant-card__desc">Tons de bataille</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadderB8.webp" alt="Barklethorn" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 9</p><p class="variant-card__name">Barklethorn</p><p class="variant-card__desc">Vert écorce épineuse</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadderB9.webp" alt="Lethal Lancebeak" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 10</p><p class="variant-card__name">Lethal Lancebeak</p><p class="variant-card__desc">Lance et bec mortels</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Seedling_Stormpest.webp" alt="Seedling Stormpest" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 11</p><p class="variant-card__name">Seedling Stormpest</p><p class="variant-card__desc">Tempête naissante</p></div>
+          <div class="variant-card variant-card--hidden"><img class="variant-card__img" src="../assets/dragons/deadly_nadder/Deadly_nadderB10.webp" alt="Stormfly" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Name tag</p><p class="variant-card__name">Stormfly</p><p class="variant-card__desc">Renomme un Nadder « Stormfly » via étiquette — réf. Astrid</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Trivia</h2><span class="index">§ 7</span></div>
+        <ul>
+          <li>Le dragon le plus diversifié du codex avec 12 variantes.</li>
+          <li>Habitat éclaté en 4 groupes biome — il s'adapte à presque tous les climats tempérés.</li>
+          <li>Variante Stormfly accessible uniquement par renommage via étiquette de nom (référence à Astrid dans le film).</li>
+          <li>Spawn de piques fixé en S32 : avant, elles partaient depuis la queue. Désormais : spawn à hauteur des yeux, direction = regard direct, trajectoire parabolique.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Commande /summon</h2><span class="index">§ 8</span></div>
+        <code class="code-block"><span class="cmd">/summon</span> <span class="arg">isleofberk:deadly_nadder ~ ~ ~ {variant:1}</span></code>
+        <p style="margin-top:0.8rem;color:var(--parchment-dim);">Variantes 1 à 11. Stormfly s'obtient par renommage via name tag.</p>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Dragons connexes</h2><span class="index">§ 9</span></div>
+        <div class="related">
+          <a href="gronckle.html">Compagnon Tier II · Gronckle</a>
+          <a href="stinger.html">Autre Tier II · Stinger</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span class="marginalia">— Codex Draconum, scriptorium de Berk —</span>
+      <span>Mod NeoForge 1.21.1 · GeckoLib 4 · GACMD &amp; Akeltroll</span>
+    </div>
+    <div class="site-footer__legal">
+      <p>Site fan non officiel — présentation du port NeoForge 1.21.1 du mod Isle of Berk, réalisé par Akeltroll. Mod original par GACMD &amp; ses scribes.</p>
+      <p>How to Train Your Dragon © DreamWorks Animation — aucune affiliation commerciale. Aucun cookie · Aucun traçage · Aucune donnée collectée.</p>
+    </div>
+  </footer>
+</body>
+</html>

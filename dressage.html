@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>De l'art du dressage · Isle of Berk Codex</title>
+  <meta name="description" content="Les quatre voies du dressage des dragons de Berk : nourriture, défaite, potion, naissance.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Caveat:wght@400;600&family=Noto+Sans+Runic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="vignette"></div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="brand" aria-label="Accueil">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path class="brand-mark" d="M16 2 L19 13 L30 13 L21 20 L24 31 L16 24 L8 31 L11 20 L2 13 L13 13 Z"/>
+          <circle class="brand-dot" cx="16" cy="16" r="2.5"/>
+        </svg>
+        <span>Codex Draconum</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="bestiaire.html">Bestiaire</a>
+        <a href="dressage.html" aria-current="page">Dressage</a>
+        <a href="nids.html">Nids</a>
+        <a href="lore.html">Colophon</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Capvt II · De l'art du dressage</span>
+          <div class="section-head__row">
+            <h2>Les quatre voies</h2>
+            <span class="marginalia">patience avant tout</span>
+          </div>
+        </div>
+
+        <p class="lede">
+          Quatre voies, quatre patiences. Le dragon ne se possède pas — il se
+          mérite, par la nourriture, la défaite, ou la potion.
+        </p>
+
+        <ol class="steps" style="margin-bottom:2.5rem;">
+          <li>
+            <strong>Tier II · Terrible Terror — La main directe.</strong>
+            Méthode la plus simple. Tiens du saumon, morue ou poisson tropical,
+            approche sans arme. Le dragon mange (timer 40–120 ticks), la jauge
+            monte. Au seuil, l'apprivoisement réussit. Aucune potion, aucun combat.
+          </li>
+          <li>
+            <strong>Tier II · Stinger, Deadly Nadder, Gronckle — La main tendue.</strong>
+            Nourriture spécifique : mouton (Stinger), poulet ×30+ (Nadder), bœuf (Gronckle).
+            La barre monte en Phase 1 (0→100), puis 1 chance sur 7 par interaction au seuil.
+            Aucune armure ni arme équipée.
+          </li>
+          <li>
+            <strong>Tier III · Skrill, Triple Stryke — Par la défaite.</strong>
+            Ne pas tenter de les nourrir en combat — la foudre ou le venin répondront.
+            Inflige-leur <strong>20 cœurs de dégâts</strong> (mécanique de reddition).
+            Invincibilité 2,5 s + fenêtre passive 2 min → offre alors leur nourriture.
+          </li>
+          <li>
+            <strong>Tier IV · Night Fury, Light Fury, Monstrous Nightmare, Hideous Zippleback — La potion sacrée.</strong>
+            Triple rituel : <strong>nourriture spécifique</strong>,
+            <strong>aucune armure ni arme</strong>, et un <strong>effet de potion</strong>
+            adapté à l'espèce (Vision nocturne, Invisibilité, Résistance au feu, Force).
+          </li>
+          <li>
+            <strong>Hors-tier · Night Light — Le don de naissance.</strong>
+            Croise un Night Fury et une Light Fury apprivoisés. Le rejeton naît
+            déjà allié. Aucune potion, aucun combat.
+          </li>
+        </ol>
+
+        <blockquote>
+          Un dragon mal apprivoisé n'oublie pas. Il fuira à la première occasion,
+          ou pire, retournera contre son maître. La vitesse ne vaut rien sans
+          la confiance.
+          <cite>— Avertissement du scribe</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section" id="craft">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Capvt II · Forge et alchimie</span>
+          <div class="section-head__row">
+            <h2>Recettes essentielles</h2>
+            <span class="marginalia">brassage &amp; craft</span>
+          </div>
+        </div>
+
+        <div class="recipe">
+          <div class="recipe__head">
+            <p class="recipe__name">Filtre d'amour</p>
+            <span class="recipe__type">Brassage alchimique</span>
+          </div>
+          <div class="recipe__ingredients">
+            <span class="ingredient"><img class="ingredient__img" src="assets/items/belzium.png" alt="">Belzium</span>
+            <span class="recipe__plus">+</span>
+            <span class="ingredient"><img class="ingredient__img" src="assets/items/potion.png" alt="">Awkward Potion</span>
+            <span class="recipe__arrow">→</span>
+            <span class="recipe__output"><img class="ingredient__img" src="assets/items/love_potion.png" alt="">Filtre d'amour</span>
+          </div>
+        </div>
+        <ol class="steps" style="margin-bottom:1.5rem;">
+          <li>Mine du <strong>Belzium</strong> dans The End (Endstone Y 0–60, pioche nétherite ou Gronckle Iron).</li>
+          <li>Brasse le Filtre d'amour : <strong>Belzium + Awkward Potion</strong> dans un alambic.</li>
+          <li>Trouve une <strong>Light Fury sauvage</strong> (dans les plaines ou biomes ouverts).</li>
+          <li>Clic droit sur la Light Fury sauvage avec le Filtre — elle te donne l'<strong>Écaille-Compas</strong>.</li>
+          <li>L'Écaille-Compas indique la direction du <strong>Night Fury légendaire</strong> dans The End.</li>
+          <li>Suis la boussole jusqu'au Night Fury légendaire et apprivoise-le (Tier IV : potion Vision nocturne + saumon/morue, sans armure ni arme).</li>
+        </ol>
+
+        <div class="recipe">
+          <div class="recipe__head">
+            <p class="recipe__name">Belzium (minerai)</p>
+            <span class="recipe__type">Extraction · The End</span>
+          </div>
+          <div class="recipe__ingredients">
+            <span class="ingredient"><img class="ingredient__img" src="assets/items/end_stone.png" alt="">Endstone Y 0–60</span>
+            <span class="recipe__plus">·</span>
+            <span class="ingredient"><img class="ingredient__img" src="assets/items/netherite_pickaxe.png" alt="">Pioche nétherite ou Gronckle Iron</span>
+            <span class="recipe__arrow">→</span>
+            <span class="recipe__output"><img class="ingredient__img" src="assets/items/belzium.png" alt="">Belzium</span>
+          </div>
+        </div>
+
+        <div class="recipe">
+          <div class="recipe__head">
+            <p class="recipe__name">Gronckle Iron</p>
+            <span class="recipe__type">Minerai · Pioche diamant minimum</span>
+          </div>
+          <p style="margin:0.5rem 0 1rem;color:var(--parchment-dim);">
+            Minerai trouvable dans le monde — miner avec une pioche en diamant minimum
+            pour obtenir du <em>Raw Gronckle Iron</em>.<br>
+            <strong>Autre méthode :</strong> donne de la pierre, cobblestone, granite, diorite ou deepslate
+            à un Gronckle apprivoisé — il mâche et crache du <em>Raw Gronckle Iron</em> (chance variable).
+          </p>
+          <div class="recipe__grid-wrap">
+            <div class="recipe__grid">
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/glowstone_dust.png" alt="" title="Glowstone Dust"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/glowstone_dust.png" alt="" title="Glowstone Dust"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/glowstone_dust.png" alt="" title="Glowstone Dust"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/raw_gronckle_iron.png" alt="" title="Raw Gronckle Iron"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/sandstone.png" alt="" title="Sandstone"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/iron_ingot.png" alt="" title="Iron Ingot"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/sandstone.png" alt="" title="Sandstone"></div>
+            </div>
+            <span class="recipe__grid-arrow">→</span>
+            <div class="recipe__cell recipe__cell--output"><img class="recipe__cell__img" src="assets/items/gronckle_iron.png" alt="" title="Gronckle Iron"></div>
+          </div>
+        </div>
+        <p style="margin-bottom:1.5rem;color:var(--parchment-dim);">
+          Transforme le Raw Gronckle Iron en lingot utilisable via ce craft.
+        </p>
+
+        <div class="recipe">
+          <div class="recipe__head">
+            <p class="recipe__name">Dragon Staff</p>
+            <span class="recipe__type">Craft façonné · Table de craft</span>
+          </div>
+          <div class="recipe__grid-wrap">
+            <div class="recipe__grid">
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/gronckle_iron.png" alt="" title="Gronckle Iron"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/amethyst_shard.png" alt="" title="Amethyst Shard"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell"></div>
+              <div class="recipe__cell recipe__cell--filled"><img class="recipe__cell__img" src="assets/items/stick.png" alt="" title="Stick"></div>
+              <div class="recipe__cell"></div>
+            </div>
+            <span class="recipe__grid-arrow">→</span>
+            <div class="recipe__cell recipe__cell--output"><img class="recipe__cell__img" src="assets/items/dragon_staff.png" alt="" title="Dragon Staff"></div>
+          </div>
+        </div>
+        <p style="color:var(--parchment-dim);">
+          Clic droit → téléporte ton dragon apprivoisé (Y+8, sol solide).
+          Fonctionne <strong>cross-dimension</strong> (Overworld / Nether / End).
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="keybinds">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Capvt II · Commandes</span>
+          <div class="section-head__row">
+            <h2>Commandes clavier</h2>
+            <span class="marginalia">Options › Commandes › Isle of Berk</span>
+          </div>
+        </div>
+
+        <table class="keybinds">
+          <thead>
+            <tr>
+              <th>Action</th>
+              <th>Touche</th>
+              <th>Contexte</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Capacité régulière</td>
+              <td><span class="key-badge">R</span></td>
+              <td>Souffle / tir principal (maintenir pour charger plasma blast)</td>
+            </tr>
+            <tr>
+              <td>Capacité spéciale</td>
+              <td><span class="key-badge">X</span></td>
+              <td>Pouvoir secondaire (tempête, manteau de feu, invisibilité…)</td>
+            </tr>
+            <tr>
+              <td>Descendre en vol</td>
+              <td><span class="key-badge">Ctrl</span></td>
+              <td>Ne pas utiliser Shift — Shift démonte le dragon (vanilla wantsToStopRiding)</td>
+            </tr>
+            <tr>
+              <td>Saisir / relâcher</td>
+              <td><span class="key-badge">G</span></td>
+              <td>Attrape une entité dans les griffes (ami à transporter, ennemi à larguer)</td>
+            </tr>
+            <tr>
+              <td>Démonter Terrible Terror</td>
+              <td><span class="key-badge">M</span></td>
+              <td>Fait descendre le dernier Terrible Terror perché sur le joueur</td>
+            </tr>
+            <tr>
+              <td>Tonneau (barrel roll)</td>
+              <td><span class="key-badge">C</span></td>
+              <td>En vol uniquement. <em>Désactivé en S38</em> — réactivation future possible</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p style="margin-top:1.5rem;color:var(--parchment-dim);">
+          Pour <strong>monter</strong> sur un dragon apprivoisé : clic droit main vide.
+          Pour <strong>altitude</strong> : barre d'espace. Pour <strong>progresser</strong>
+          dans l'apprivoisement : bâton (<em>stick</em>) en main pour voir la jauge.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span class="marginalia">— Codex Draconum, scriptorium de Berk —</span>
+      <span>Mod NeoForge 1.21.1 · GeckoLib 4 · GACMD &amp; Akeltroll</span>
+    </div>
+    <div class="site-footer__legal">
+      <p>Site fan non officiel — présentation du port NeoForge 1.21.1 du mod Isle of Berk, réalisé par Akeltroll. Mod original par GACMD &amp; ses scribes.</p>
+      <p>How to Train Your Dragon © DreamWorks Animation — aucune affiliation commerciale. Aucun cookie · Aucun traçage · Aucune donnée collectée.</p>
+    </div>
+  </footer>
+</body>
+</html>

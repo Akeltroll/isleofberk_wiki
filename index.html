@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Codex Draconum — Le grand livre des dragons</title>
+  <meta name="description" content="Codex Draconum — Guide officiel du mod Isle of Berk, bestiaire, dressage et nids.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Caveat:wght@400;600&family=Noto+Sans+Runic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="vignette"></div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="brand" aria-label="Accueil">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path class="brand-mark" d="M16 2 L19 13 L30 13 L21 20 L24 31 L16 24 L8 31 L11 20 L2 13 L13 13 Z"/>
+          <circle class="brand-dot" cx="16" cy="16" r="2.5"/>
+        </svg>
+        <span>Codex Draconum</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="bestiaire.html">Bestiaire</a>
+        <a href="dressage.html">Dressage</a>
+        <a href="nids.html">Nids</a>
+        <a href="lore.html">Colophon</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="home-hero" data-screen-label="01 Accueil">
+      <!-- Couches paysage -->
+      <div class="home-hero__sky" aria-hidden="true"></div>
+      <div class="home-hero__stars" aria-hidden="true"></div>
+      <div class="home-hero__moon" aria-hidden="true"></div>
+
+      <!-- Sceau héraldique en filigrane derrière le titre -->
+      <svg class="home-hero__seal" viewBox="0 0 200 200" aria-hidden="true">
+        <g fill="none" stroke="#d4af37" stroke-width="0.6">
+          <circle cx="100" cy="100" r="92"/>
+          <circle cx="100" cy="100" r="82"/>
+          <circle cx="100" cy="100" r="66" stroke-dasharray="2 4"/>
+          <circle cx="100" cy="100" r="50"/>
+          <circle cx="100" cy="100" r="30" stroke-dasharray="1 3"/>
+          <!-- étoile interne 8 branches -->
+          <path d="M100 35 L106 90 L160 95 L113 105 L130 158 L100 115 L70 158 L87 105 L40 95 L94 90 Z"/>
+          <!-- petites graduations en périphérie -->
+          <g stroke-width="0.8">
+            <line x1="100" y1="2" x2="100" y2="12"/>
+            <line x1="100" y1="188" x2="100" y2="198"/>
+            <line x1="2" y1="100" x2="12" y2="100"/>
+            <line x1="188" y1="100" x2="198" y2="100"/>
+            <line x1="30" y1="30" x2="38" y2="38"/>
+            <line x1="170" y1="30" x2="162" y2="38"/>
+            <line x1="30" y1="170" x2="38" y2="162"/>
+            <line x1="170" y1="170" x2="162" y2="162"/>
+          </g>
+        </g>
+        <!-- Wyrm enroulé central -->
+        <path fill="#d4af37" opacity="0.85" d="M100 78 C 88 78 80 86 80 98 C 80 110 88 118 100 118 C 108 118 114 112 114 104 C 114 98 110 94 104 94 C 100 94 97 97 97 101 C 97 103 99 105 101 105 L 101 99 L 105 99 L 105 107 C 105 110 102 113 99 113 C 93 113 89 109 89 103 C 89 95 95 89 103 89 C 113 89 121 97 121 107 C 121 119 111 129 99 129 C 85 129 73 117 73 103 C 73 87 85 75 101 75 C 119 75 133 89 133 107"/>
+        <circle cx="100" cy="100" r="3" fill="#f4d56a"/>
+      </svg>
+
+      <!-- Slot hero — dépose ton PNG à assets/hero_dragon.png (transparent ~1200x600) -->
+      <img class="home-hero__dragon-img"
+           src="assets/hero_dragon.png"
+           alt=""
+           onerror="this.style.display='none'">
+
+      <!-- Corbeaux dans les coins du hero -->
+      <div class="raven home-hero__raven--left" aria-hidden="true">
+        <svg viewBox="0 0 120 60">
+          <ellipse cx="60" cy="38" rx="22" ry="6"/>
+          <circle cx="42" cy="35" r="7"/>
+          <path d="M 32 35 L 22 31 L 27 35 L 22 39 Z"/>
+          <path d="M 56 34 Q 38 12, 6 6 Q 28 22, 50 32 Z"/>
+          <path d="M 70 38 Q 96 50, 118 56 Q 96 44, 76 38 Z"/>
+          <path d="M 80 38 L 96 36 L 91 40 L 96 42 L 80 42 Z"/>
+          <circle cx="44" cy="34" r="1" fill="#d4af37" opacity="0.7"/>
+        </svg>
+      </div>
+      <div class="raven home-hero__raven--right" aria-hidden="true">
+        <svg viewBox="0 0 120 60">
+          <ellipse cx="60" cy="38" rx="22" ry="6"/>
+          <circle cx="42" cy="35" r="7"/>
+          <path d="M 32 35 L 22 31 L 27 35 L 22 39 Z"/>
+          <path d="M 56 34 Q 38 12, 6 6 Q 28 22, 50 32 Z"/>
+          <path d="M 70 38 Q 96 50, 118 56 Q 96 44, 76 38 Z"/>
+          <path d="M 80 38 L 96 36 L 91 40 L 96 42 L 80 42 Z"/>
+          <circle cx="44" cy="34" r="1" fill="#d4af37" opacity="0.7"/>
+        </svg>
+      </div>
+
+      <!-- Montagnes en couches au pied du hero -->
+      <svg class="home-hero__mountains" viewBox="0 0 1440 240" preserveAspectRatio="none" aria-hidden="true">
+        <path fill="#0a0a14" opacity="0.85" d="M0,240 L0,170 L80,150 L180,175 L260,135 L360,160 L460,120 L560,155 L660,115 L760,145 L860,105 L960,140 L1060,110 L1160,145 L1260,100 L1360,135 L1440,90 L1440,240 Z"/>
+        <path fill="#100c08" opacity="0.95" d="M0,240 L0,200 L120,165 L220,195 L320,155 L440,180 L560,140 L680,175 L800,135 L920,170 L1040,130 L1160,165 L1280,125 L1380,160 L1440,140 L1440,240 Z"/>
+        <path fill="#07050a" d="M0,240 L0,225 L100,205 L220,220 L340,195 L460,215 L580,190 L720,210 L860,185 L1000,212 L1140,188 L1280,205 L1400,182 L1440,195 L1440,240 Z"/>
+      </svg>
+
+      <div class="home-hero__inner">
+        <p class="home-hero__sub">Isle of Berk · NeoForge 1.21.1</p>
+
+        <div class="rune-band" aria-hidden="true">
+          <span class="rune-band__runes">ᛞ ᚱ ᚨ ᚲ ᛟ ᚾ ᚢ ᛗ</span>
+        </div>
+
+        <h1>Codex<br>Draconum</h1>
+        <p class="home-hero__quote">
+          « Le dragon n'est pas une bête.<br>
+          C'est une nation à plumes, une culture à crocs. »
+        </p>
+        <div class="btn-row" style="justify-content:center;">
+          <a href="bestiaire.html" class="btn">Ouvrir le bestiaire</a>
+          <a href="dressage.html" class="btn btn--ghost">L'art du dressage</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOWCASE -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Capvt II · Mis en avant</span>
+          <div class="section-head__row">
+            <h2>Trois figures du codex</h2>
+            <span class="marginalia">les plus remarquables</span>
+          </div>
+        </div>
+
+        <div class="showcase">
+          <a href="dragons/deadlynadder.html" class="showcase-card">
+            <div class="showcase-card__image">
+              <img src="assets/dragons/deadlynadder.webp" alt="Deadly Nadder" loading="lazy" onerror="this.remove()">
+              <div class="bestiary-card__placeholder"></div>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__name">Deadly Nadder</h3>
+              <p class="showcase-card__epithet">l'Échinée des falaises</p>
+              <p class="showcase-card__teaser">Précision chirurgicale, salves d'épines magnétiques. Le tireur d'élite du codex.</p>
+              <span class="showcase-card__link">Voir la fiche →</span>
+            </div>
+          </a>
+
+          <a href="dragons/nightfury.html" class="showcase-card">
+            <div class="showcase-card__image">
+              <img src="assets/dragons/nightfury.webp" alt="Night Fury" loading="lazy" onerror="this.remove()">
+              <div class="bestiary-card__placeholder"></div>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__name">Night Fury</h3>
+              <p class="showcase-card__epithet">le Voilier d'Ombre</p>
+              <p class="showcase-card__teaser">Tir plasma silencieux, tempête électrique. L'insaisissable — spawn uniquement dans The End.</p>
+              <span class="showcase-card__link">Voir la fiche →</span>
+            </div>
+          </a>
+
+          <a href="dragons/skrill.html" class="showcase-card">
+            <div class="showcase-card__image">
+              <img src="assets/dragons/skrill.webp" alt="Skrill" loading="lazy" onerror="this.remove()">
+              <div class="bestiary-card__placeholder"></div>
+            </div>
+            <div class="showcase-card__body">
+              <h3 class="showcase-card__name">Skrill</h3>
+              <p class="showcase-card__epithet">le Foudroyeur des cimes</p>
+              <p class="showcase-card__teaser">Capteur d'orages. Il avale les éclairs et les recrache plus larges. Combat avant tout.</p>
+              <span class="showcase-card__link">Voir la fiche →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+        <div class="fleuron" aria-hidden="true">
+          <svg viewBox="0 0 36 18"><path d="M0 9 L 12 9 M 24 9 L 36 9 M 14 9 L 18 4 L 22 9 L 18 14 Z" stroke="currentColor" fill="none" stroke-width="1"/><circle cx="18" cy="9" r="1.5" fill="currentColor"/></svg>
+        </div>
+        <div class="stats-home">
+          <div class="stats-home__cell">
+            <span class="stats-home__num">XIII</span>
+            <span class="stats-home__label">espèces recensées</span>
+          </div>
+          <div class="stats-home__cell">
+            <span class="stats-home__num">III</span>
+            <span class="stats-home__label">tiers de dressage</span>
+          </div>
+          <div class="stats-home__cell">
+            <span class="stats-home__num">150+</span>
+            <span class="stats-home__label">variantes connues</span>
+          </div>
+          <div class="stats-home__cell">
+            <span class="stats-home__num">IV</span>
+            <span class="stats-home__label">structures de nid</span>
+          </div>
+        </div>
+        <hr class="rule-gold">
+      </div>
+    </section>
+
+    <!-- TOC -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Capvt III · Sommaire</span>
+          <div class="section-head__row">
+            <h2>Les quatre voies du codex</h2>
+            <span class="marginalia">par où commencer</span>
+          </div>
+        </div>
+
+        <div class="toc">
+          <a class="toc-card" href="bestiaire.html">
+            <p class="toc-card__num">I</p>
+            <h3>Bestiaire</h3>
+            <p>Les treize espèces recensées, classées par tier et par mode de vol. Filtrer, comparer, contempler.</p>
+          </a>
+          <a class="toc-card" href="dressage.html">
+            <p class="toc-card__num">II</p>
+            <h3>Dressage</h3>
+            <p>Trois voies d'apprivoisement. Recettes d'alchimie, sifflets de rappel, raccourcis de chevauchée.</p>
+          </a>
+          <a class="toc-card" href="nids.html">
+            <p class="toc-card__num">III</p>
+            <h3>Nids</h3>
+            <p>Quatre structures naturelles. Où trouver les meutes de Speed Stingers — et comment en revenir.</p>
+          </a>
+          <a class="toc-card" href="lore.html">
+            <p class="toc-card__num">IV</p>
+            <h3>Colophon</h3>
+            <p>Auteurs, scribes, traducteurs. Pile technique et notes du fac-similé.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span class="marginalia">— Codex Draconum, scriptorium de Berk —</span>
+      <span>Mod NeoForge 1.21.1 · GeckoLib 4 · GACMD &amp; Akeltroll</span>
+    </div>
+    <div class="site-footer__legal">
+      <p>Site fan non officiel — présentation du port NeoForge 1.21.1 du mod Isle of Berk, réalisé par Akeltroll. Mod original par GACMD &amp; ses scribes.</p>
+      <p>How to Train Your Dragon © DreamWorks Animation — aucune affiliation commerciale. Aucun cookie · Aucun traçage · Aucune donnée collectée.</p>
+    </div>
+  </footer>
+</body>
+</html>

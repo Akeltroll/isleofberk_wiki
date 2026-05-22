@@ -1,0 +1,41 @@
+{{Dragon|title1=Night Light|Taming_Food=Salmon, cod, or tropical fish|Taming_Conditions=None|Spawn_rate=Do not spawn naturally|Health=70 (35 hearts)|Damage=4 (2 hearts)|Walking=0.4|Flying=0.2|Reg_Ability=Plasma blast|Special_Ability=Invisibility|Ridable=Yes|Breeding_food=Honeycomb|Breeding_cooldown=80 minutes|Hatching_time=40 minutes|Growing_time=83 minutes|image=Night light1.png|caption-image=Dart|Biomes=N/A|Armor=0}}
+
+=== Table of contents ===
+# Trivia
+# Image gallery
+# References<br />
+
+== Trivia ==
+*A Night Light can only be spawned by breeding a [[Light fury|Light Fury]] and a [[Night fury]]
+*Due to Night Lights not spawning naturally, they are not listed in the config They are also the only dragon that is not listed at all on the WIX page
+*There are 11 variants of the Nightlight  
+*Variant 8 is the only dragon with Heterochromia, a condition that causes each eye to be different colours
+*When breeding two Night Lights together, you'll get a Night Light egg. However, when breeding a Night Light with a Night Fury or Light Fury, you will get a complete Night Fury or Light Fury egg.
+/summon isleofberk:night_light ~ ~ ~ {variant:#} 
+
+[[File:Variant 1- "Pouncer".png|thumb|Variant 1: "Pouncer"]]
+
+== Image gallery ==
+
+[https://web.archive.org/web/20240107024625/https://isle-of-berk-mod.fandom.com/wiki/Night_Light Night Light] - Archived<gallery>
+File:Variant 11.png|Variant 11  (7 if spawning ingame with commands.) 
+File:Variant 10 Dart.png|Variant 10: "Dart"  (8 if spawning ingame with commands, also spawnable under 9, 10, and 11.) 
+File:Variant 9.png|Variant 9  (6 ingame if spawning with commands.) 
+File:Variant 8.png|Variant 8  (5 ingame if spawning with commands.) 
+File:Variant 7.png|Variant 7  (4 if spawning ingame with commands.) 
+File:Variant 6.png|Variant 6  (3 ingame if spawning with commands.) 
+File:Variant 5 Dusk.png|Variant 5: "Dusk" (Unsummonable.) 
+File:Variant 4 Appaloosa.png|Variant 4: "Appaloosa" (Unsummonable.) 
+File:Variant 3 Leopard.png|Variant 3: "Leopard" (Unsummonable.) 
+File:Variant 2 Ruffrunner.png|Variant 2: "Ruffrunner" (2 when being spawned with commands.) 
+File:Variant 1 Pouncer.png|Variant 1: "Pouncer" (1 when being spawned with commands.) 
+</gallery>
+
+== References ==
+All renders by NaniTheDucc
+
+Screencaptures added March 2025
+
+Variant codes for ingame summoning tested and added April 2025.
+<references />
+[[Category:Tier Four]]

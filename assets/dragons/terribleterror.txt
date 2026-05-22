@@ -1,0 +1,35 @@
+{{Dragon|image=Terrible Terror.webp|title1=Terrible Terror|caption-image=Terror Variant|Taming_Food=Salmon, cod, or tropical fish|Taming_Conditions=No weapons equipped|Spawn_rate=A. 1 (Rare) 
+B. 4 (Uncommon)|Biomes=A. Stony Shore, River, Beach.
+B. Jungle, Bamboo Jungle, Dark Forest.|Health=20 (10 hearts)|Armor=0|Damage=2 (1 heart)|Walking=0.3|Flying=0.04|Reg_Ability=Flame thrower|Special_Ability=Beneficial effects when with player
+1: Feather Falling I, Jump Boost I
+2: Feather falling II, Jump boost II, Speed II
+3: Feather falling III, Jump boost III, Speed III|Ridable=No|Breeding_food=Pufferfish|Breeding_cooldown=20 minutes|Hatching_time=10 minutes|Growing_time=83 minutes|pack_size=A.0-2
+B. 2-4}}
+
+=== Table of contents ===
+# Image gallery
+# References
+
+== Trivia ==
+
+* These dragons have the ability to sit on the user's head and shoulders, with up to 3 at a time. Make sure the dragon is in follow mode before right clicking it.
+* They will pick up meat drops off the ground
+* They will hold any food item if given to them directly, they will also eat any food item they hold after awhile, and subsequently gain any affects from it.
+* Variant 8 "Dragonfruit" is only obtainable through the use of the /summon command.
+/summon isleofberk:terrible_terror ~ ~ ~ {variant:#}
+
+== Image Gallery ==
+<gallery>
+File:Variant1 Blar.webp|Variant 1 "Blar"
+File:Variant2 Sneaky.webp|Variant 2 "Sneaky"
+File:Terrible Terror.webp|Variant 3 "Terror"
+File:Variant4 Sharpshot.webp|Variant 4 "Sharpshot"
+File:Variant5 Iggy.webp|Variant 5 "Iggy"
+File:Variant6 Pain.webp|Variant 6 "Pain"
+File:Variant7 Head.webp|Variant 7 "Head"
+File:Variant 8 "Dragonfruit"-.png|Variant 8 "Dragonfruit"
+</gallery>
+
+== References ==
+Renders sourced from the [https://gacmdteam.wixsite.com/isleofberk/dragons dev wiki]
+[[Category:TIer One]]

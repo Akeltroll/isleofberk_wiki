@@ -1,0 +1,32 @@
+{{Dragon|title1=Stinger|Taming_Food=Mutton|Taming_Conditions=No armor or weapons equipped|Spawn_rate=A. 10 (Very common)
+
+
+B. 2 (Rare)|Biomes=A. Sunflower Plains, Savannas, Savanna Plateaus 
+
+
+B. Badlands, Wooded Badlands, Eroded Badlands|Health=80 (40 hearts)|Armor=2 (1 icon)|Damage=8 (4 hearts)|Walking=0.55|Reg_Ability=Ram|Special_Ability=N/A|Ridable=Yes|Breeding_food=Suspicious stew|Breeding_cooldown=40 minutes|Hatching_time=40 minutes|Growing_time=83 minutes|image=Mudsmasher.webp|caption-image=Mudsmasher variant|Flying=N/A|pack_size=A. 2-4
+
+
+B. 0-2}}
+
+== Trivia ==
+
+* Stingers are the only dragons that are currently in game from a media considered non-canon to the HTTYD franchise, them heralding from the liveshow called [https://howtotrainyourdragon.fandom.com/wiki/How_to_Train_Your_Dragon_Live_Spectacular How To Train Your Dragon: Live Spectacular]
+* When tamed these dragons wear a "collar" with chains on it. 
+* There is an unused placeholder texture for the Stinger left over in the game files.
+/summon isleofberk:stinger ~ ~ ~ {variant:#}
+
+== Image gallery ==
+<gallery>
+File:Mudsmasher.webp|Variant 1 "Mudsmasher"
+File:Variant 2 Sandscorcher.png|Variant 2 "Sandscorcher"
+File:Variant 3 Badlands.png|Variant 3 "Badlands"
+File:Variant 4 Kingly.png|Variant 4 "Kingly"
+File:Variant 5 Coastal Predator.png|Variant 5 "Coastal Predator"
+File:Wildroar.webp|Variant 6 "Wildroar"
+</gallery>
+
+== Reference ==
+<ref>[https://gacmdteam.wixsite.com/isleofberk/dragons] Images</ref>
+<references />
+[[Category:Tier Two]]

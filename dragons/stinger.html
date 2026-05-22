@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Stinger · Isle of Berk Codex</title>
+  <meta name="description" content="Stinger : le venimeux des plaines, vitesse record. Tier II, charge frontale.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Caveat:wght@400;600&family=Noto+Sans+Runic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="vignette"></div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="../index.html" class="brand" aria-label="Accueil">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path class="brand-mark" d="M16 2 L19 13 L30 13 L21 20 L24 31 L16 24 L8 31 L11 20 L2 13 L13 13 Z"/>
+          <circle class="brand-dot" cx="16" cy="16" r="2.5"/>
+        </svg>
+        <span>Codex Draconum</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="../bestiaire.html">Bestiaire</a>
+        <a href="../dressage.html">Dressage</a>
+        <a href="../nids.html">Nids</a>
+        <a href="../lore.html">Colophon</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="dragon-hero" data-tier="2">
+      <img src="../assets/dragons/stinger.webp" alt="Stinger — vue de profil" onerror="this.style.display='none'">
+      <div class="dragon-hero__overlay" aria-hidden="true"></div>
+      <div class="dragon-hero__text">
+        <div>
+          <h1 class="dragon-hero__title">Stinger</h1>
+          <span class="dragon-hero__epithet">le venimeux des plaines</span>
+        </div>
+        <div class="dragon-hero__badge">Tier II · Au sol</div>
+      </div>
+    </section>
+
+    <section class="container" style="padding-top:2.5rem;">
+      <div class="stats-visual" aria-label="Caractéristiques">
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Points de vie</span><span class="stat__value">80</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:80%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Dégâts</span><span class="stat__value">8</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:80%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Armure</span><span class="stat__value">2</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:10%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Vitesse sol</span><span class="stat__value">0.55</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:100%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Description</h2><span class="index">§ 1</span></div>
+        <p class="lede">Petit dragon de plaine, ami des bétails. <strong>Vitesse au sol 0.55 — la plus rapide du codex.</strong></p>
+        <p>
+          Sa charge en Ram en fait un bélier vivant. Apprivoisé, il porte un collier de chaînes
+          — utilitaire avant tout, pas un dragon de combat aérien (pas de vol). Six variantes
+          connues, l'une (« Coastal Predator ») ne spawne que sur la côte.
+        </p>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Capacités</h2><span class="index">§ 2</span></div>
+        <div class="ability-grid">
+          <div class="ability-card">
+            <span class="key-badge">R</span>
+            <div>
+              <h3 class="ability-card__name">Ram — Charge à plein régime</h3>
+              <p class="ability-card__desc">Charge frontale à pleine vitesse. Hitbox <code>stingerRamOffset</code> n'est active que durant l'animation de charge (S34 fix : avant, elle restait active hors charge).</p>
+              <div class="ability-card__stats">
+                <span><strong>Vitesse</strong> : 0.55 sol (record codex)</span>
+                <span><strong>Type</strong> : mêlée directe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Apprivoisement</h2><span class="index">§ 3</span></div>
+        <p><strong>Tier II — La main tendue.</strong><br>
+        <strong>Nourriture :</strong> Mouton.<br>
+        <strong>Conditions :</strong> Aucune armure ni arme équipée.</p>
+        <ol class="steps">
+          <li>Trouve un Stinger en plaine ou savane.</li>
+          <li>Retire armure et arme.</li>
+          <li>Tiens du mouton et clic droit, encore.</li>
+          <li>Au seuil, 1 chance sur 7 par interaction.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Reproduction</h2><span class="index">§ 4</span></div>
+        <div class="stats-visual" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr));padding:1rem 0;">
+          <div class="stat"><div class="stat__head"><span class="stat__label">Repro.</span><span class="stat__value" style="font-size:1rem;">Ragoût suspect</span></div></div>
+          <div class="stat"><div class="stat__head"><span class="stat__label">Cooldown</span><span class="stat__value">40 min</span></div></div>
+          <div class="stat"><div class="stat__head"><span class="stat__label">Éclosion</span><span class="stat__value">40 min</span></div></div>
+          <div class="stat"><div class="stat__head"><span class="stat__label">Croissance</span><span class="stat__value">83 min</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Habitat (2 groupes)</h2><span class="index">§ 5</span></div>
+        <p>
+          <strong>A.</strong> Sunflower Plains, Savannas, Savanna Plateaus.<br>
+          <strong>B.</strong> Badlands, Wooded Badlands, Eroded Badlands.
+        </p>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Variantes (6)</h2><span class="index">§ 6</span></div>
+        <div class="variant-grid">
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/stinger/Mudsmasher.webp" alt="Mudsmasher" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 1</p><p class="variant-card__name">Mudsmasher</p><p class="variant-card__desc">Tons boueux</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/stinger/Variant_2_Sandscorcher.webp" alt="Sandscorcher" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 2</p><p class="variant-card__name">Sandscorcher</p><p class="variant-card__desc">Brûlant des sables</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/stinger/Variant_3_Badlands.webp" alt="Badlands" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 3</p><p class="variant-card__name">Badlands</p><p class="variant-card__desc">Tons de mesa rouge</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/stinger/Variant_4_Kingly.webp" alt="Kingly" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 4</p><p class="variant-card__name">Kingly</p><p class="variant-card__desc">Tons royaux</p></div>
+          <div class="variant-card variant-card--hidden"><img class="variant-card__img" src="../assets/dragons/stinger/Variant_5_Coastal_Predator.webp" alt="Coastal Predator" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 5</p><p class="variant-card__name">Coastal Predator</p><p class="variant-card__desc">Côte uniquement — biome Beach / Stony Shore</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/stinger/Wildroar.webp" alt="Wildroar" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Défaut</p><p class="variant-card__name">Wildroar</p><p class="variant-card__desc">Forme par défaut — case 0</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Trivia</h2><span class="index">§ 7</span></div>
+        <ul>
+          <li>Vitesse au sol 0.55 — la plus rapide du codex (devant les autres dragons à 0.4).</li>
+          <li>Pas de capacité de vol — au sol uniquement.</li>
+          <li>Apprivoisé, il porte un collier de chaînes décoratif.</li>
+          <li>Variante Coastal Predator : ne spawne que sur la côte (biomes Beach / Stony Shore).</li>
+          <li>Hitbox de charge fixée en S34 : active uniquement durant l'animation Ram.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Commande /summon</h2><span class="index">§ 8</span></div>
+        <code class="code-block"><span class="cmd">/summon</span> <span class="arg">isleofberk:stinger ~ ~ ~ {variant:1}</span></code>
+        <p style="margin-top:0.8rem;color:var(--parchment-dim);">Variantes 1 à 5. Wildroar (variant 0) : forme par défaut.</p>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Dragons connexes</h2><span class="index">§ 9</span></div>
+        <div class="related">
+          <a href="speedstinger.html">Cousin de meute · Speed Stinger</a>
+          <a href="triplestryke.html">Autre venimeux · Triple Stryke</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span class="marginalia">— Codex Draconum, scriptorium de Berk —</span>
+      <span>Mod NeoForge 1.21.1 · GeckoLib 4 · GACMD &amp; Akeltroll</span>
+    </div>
+    <div class="site-footer__legal">
+      <p>Site fan non officiel — présentation du port NeoForge 1.21.1 du mod Isle of Berk, réalisé par Akeltroll. Mod original par GACMD &amp; ses scribes.</p>
+      <p>How to Train Your Dragon © DreamWorks Animation — aucune affiliation commerciale. Aucun cookie · Aucun traçage · Aucune donnée collectée.</p>
+    </div>
+  </footer>
+</body>
+</html>

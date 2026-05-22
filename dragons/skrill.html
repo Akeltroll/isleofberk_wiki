@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Skrill · Isle of Berk Codex</title>
+  <meta name="description" content="Skrill : foudre incarnée, apprivoisement par reddition. Tier III, lightning bolts.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Caveat:wght@400;600&family=Noto+Sans+Runic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="vignette"></div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="../index.html" class="brand" aria-label="Accueil">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path class="brand-mark" d="M16 2 L19 13 L30 13 L21 20 L24 31 L16 24 L8 31 L11 20 L2 13 L13 13 Z"/>
+          <circle class="brand-dot" cx="16" cy="16" r="2.5"/>
+        </svg>
+        <span>Codex Draconum</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="../bestiaire.html">Bestiaire</a>
+        <a href="../dressage.html">Dressage</a>
+        <a href="../nids.html">Nids</a>
+        <a href="../lore.html">Colophon</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="dragon-hero" data-tier="3">
+      <img src="../assets/dragons/skrill.webp" alt="Skrill — vue de profil" onerror="this.style.display='none'">
+      <div class="dragon-hero__overlay" aria-hidden="true"></div>
+      <div class="dragon-hero__text">
+        <div>
+          <h1 class="dragon-hero__title">Skrill</h1>
+          <span class="dragon-hero__epithet">foudre incarnée</span>
+        </div>
+        <div class="dragon-hero__badge">Tier III · Volant</div>
+      </div>
+    </section>
+
+    <section class="container" style="padding-top:2.5rem;">
+      <div class="stats-visual" aria-label="Caractéristiques">
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Points de vie</span><span class="stat__value">60</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:60%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Dégâts</span><span class="stat__value">4</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:40%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Armure</span><span class="stat__value">2</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:10%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Vitesse sol</span><span class="stat__value">0.20</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:40%"></span></div>
+        </div>
+        <div class="stat">
+          <div class="stat__head"><span class="stat__label">Vitesse vol</span><span class="stat__value">0.17</span></div>
+          <div class="stat__bar"><span class="stat__fill" style="width:57%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Description</h2><span class="index">§ 1</span></div>
+        <p class="lede">Tirs d'éclairs continus. Frappé par la foudre, il s'électrise et devient redoutable.</p>
+        <p>
+          Sa lenteur (0.2 sol / 0.17 vol) est compensée par la portée et la persistance de ses
+          éclairs. Treize variantes connues, dont un albinos extrêmement rare (1/100 en S39) et
+          trois variantes ultra-rares ajoutées en S39.
+        </p>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Capacités</h2><span class="index">§ 2</span></div>
+        <div class="ability-grid">
+          <div class="ability-card">
+            <span class="key-badge">R</span>
+            <div>
+              <h3 class="ability-card__name">Lightning Bolt</h3>
+              <p class="ability-card__desc">Tir d'éclair (<code>SkrillLightning</code>) — projectile linéaire avec beam tick après impact. Cylindre rayon 1.8. Dégâts initial 18, secondaires 12. Effet Shock 5 s + Cécité 2 s. threshHoldForDeletion 30 (S34).</p>
+              <div class="ability-card__stats">
+                <span><strong>Dégâts</strong> : 18 / 12</span>
+                <span><strong>Effets</strong> : Shock 5 s, Cécité 2 s</span>
+              </div>
+            </div>
+          </div>
+          <div class="ability-card">
+            <span class="key-badge">X</span>
+            <div>
+              <h3 class="ability-card__name">Lightning Coat — Manteau Électrique</h3>
+              <p class="ability-card__desc">Auto-déclenchée quand le Skrill est frappé par la foudre. Overlay visuel + <code>FIRE_RESISTANCE</code> et <code>DAMAGE_RESISTANCE</code> actifs. Renforce ses capacités offensives et défensives.</p>
+              <div class="ability-card__stats">
+                <span><strong>Trigger</strong> : frappé par foudre</span>
+                <span><strong>Effets</strong> : DamageResistance, FireResistance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Apprivoisement</h2><span class="index">§ 3</span></div>
+        <p><strong>Tier III — Par la défaite.</strong><br>
+        <strong>Nourriture :</strong> Saumon, morue ou poisson tropical.<br>
+        <strong>Conditions :</strong> Le combattre jusqu'à reddition (20 cœurs de dégâts cumulés).</p>
+        <ol class="steps">
+          <li>Engage le combat — ses éclairs sont précis et frappent à distance.</li>
+          <li>Inflige-lui 20 cœurs de dégâts cumulés (mécanique surrender, S18).</li>
+          <li>Une fois en reddition : invincibilité 2,5 s puis passif 2 minutes.</li>
+          <li>Approche-toi avec saumon/morue/poisson tropical et clic droit.</li>
+          <li>L'apprivoisement se fait au seuil de la barre.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Reproduction</h2><span class="index">§ 4</span></div>
+        <div class="stats-visual" style="grid-template-columns:repeat(auto-fit,minmax(140px,1fr));padding:1rem 0;">
+          <div class="stat"><div class="stat__head"><span class="stat__label">Repro.</span><span class="stat__value" style="font-size:1rem;">Ragoût suspect</span></div></div>
+          <div class="stat"><div class="stat__head"><span class="stat__label">Cooldown</span><span class="stat__value">60 min</span></div></div>
+          <div class="stat"><div class="stat__head"><span class="stat__label">Éclosion</span><span class="stat__value">40 min</span></div></div>
+          <div class="stat"><div class="stat__head"><span class="stat__label">Croissance</span><span class="stat__value">83 min</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Habitat</h2><span class="index">§ 5</span></div>
+        <p>Snowy Slopes, Jagged Peaks, Frozen Peaks, Stony Peaks.</p>
+        <p><strong>Spawn rate :</strong> 5 (Uncommon).</p>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Variantes (13)</h2><span class="index">§ 6</span></div>
+        <div class="variant-grid">
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill_black.webp" alt="Stormshadow" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 1</p><p class="variant-card__name">Stormshadow</p><p class="variant-card__desc">Noir tempête</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill_blue.webp" alt="Icebane" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 2</p><p class="variant-card__name">Icebane</p><p class="variant-card__desc">Bleu glacé</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill_brown.webp" alt="Fryrir" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 3</p><p class="variant-card__name">Fryrir</p><p class="variant-card__desc">Brun écorce</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill_crimson.webp" alt="Crimson" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 4</p><p class="variant-card__name">Crimson</p><p class="variant-card__desc">Cramoisi sang</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill_cyan.webp" alt="Nemesis" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 5</p><p class="variant-card__name">Nemesis</p><p class="variant-card__desc">Cyan sombre</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill_gold.webp" alt="Tempest" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 6</p><p class="variant-card__name">Tempest</p><p class="variant-card__desc">Or éclat</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill_green.webp" alt="Pickle" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 7</p><p class="variant-card__name">Pickle</p><p class="variant-card__desc">Vert acide</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill_red.webp" alt="Zen" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 8</p><p class="variant-card__name">Zen</p><p class="variant-card__desc">Rouge profond</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill_yellow.webp" alt="Spark" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 9</p><p class="variant-card__name">Spark</p><p class="variant-card__desc">Jaune solaire</p></div>
+          <div class="variant-card variant-card--rare"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill_albino.webp" alt="Albino" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 10</p><p class="variant-card__name">Albino</p><p class="variant-card__desc">Blanc immaculé · spawnrate 1/100 (S39)</p></div>
+          <div class="variant-card variant-card--rare"><img class="variant-card__img" src="../assets/dragons/skrill/Variant_11_Skrill.webp" alt="Moonshock" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 11</p><p class="variant-card__name">Moonshock</p><p class="variant-card__desc">Spawnrate 1/500 (S39)</p></div>
+          <div class="variant-card variant-card--rare"><img class="variant-card__img" src="../assets/dragons/skrill/Variant_12_Skrill.webp" alt="Springstorm" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 12</p><p class="variant-card__name">Springstorm</p><p class="variant-card__desc">Spawnrate 1/2000 (S39) — extrêmement rare</p></div>
+          <div class="variant-card"><img class="variant-card__img" src="../assets/dragons/skrill/Skrill.webp" alt="Skrill" loading="lazy" onerror="this.style.display='none'"><p class="variant-card__num">Variant 13</p><p class="variant-card__name">Skrill</p><p class="variant-card__desc">Forme classique du film</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Trivia</h2><span class="index">§ 7</span></div>
+        <ul>
+          <li>Quand un Skrill est frappé par la foudre, son Lightning Coat s'active automatiquement.</li>
+          <li>Variante Albino : spawnrate 1/100 (réduit depuis 1/1000 en S39).</li>
+          <li>Variantes rares 10/11/12 ajoutées en S39 — taux 1/100, 1/500, 1/2000.</li>
+          <li>Le Skrill ne fuit jamais à bas HP — fierté de prédateur (S34).</li>
+          <li>Surrender mechanic identique au Triple Stryke : 20 cœurs → fenêtre d'apprivoisement 2 min.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Commande /summon</h2><span class="index">§ 8</span></div>
+        <code class="code-block"><span class="cmd">/summon</span> <span class="arg">isleofberk:skrill ~ ~ ~ {variant:1}</span></code>
+        <p style="margin-top:0.8rem;color:var(--parchment-dim);">Variantes 1 à 13.</p>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="container container--narrow">
+        <div class="dragon-section__head"><h2>Dragons connexes</h2><span class="index">§ 9</span></div>
+        <div class="related">
+          <a href="triplestryke.html">Cousin Tier III · Triple Stryke</a>
+          <a href="nightfury.html">Foudre alliée · Night Fury</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span class="marginalia">— Codex Draconum, scriptorium de Berk —</span>
+      <span>Mod NeoForge 1.21.1 · GeckoLib 4 · GACMD &amp; Akeltroll</span>
+    </div>
+    <div class="site-footer__legal">
+      <p>Site fan non officiel — présentation du port NeoForge 1.21.1 du mod Isle of Berk, réalisé par Akeltroll. Mod original par GACMD &amp; ses scribes.</p>
+      <p>How to Train Your Dragon © DreamWorks Animation — aucune affiliation commerciale. Aucun cookie · Aucun traçage · Aucune donnée collectée.</p>
+    </div>
+  </footer>
+</body>
+</html>

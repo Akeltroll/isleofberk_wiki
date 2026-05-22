@@ -1,0 +1,50 @@
+{{Dragon|title1=Gronckle|Taming_Food=Beef|Taming_Conditions=No armor or weapons equipped|Spawn_rate=A. 2 (Rare)
+
+B. 5 (Uncommon) 
+
+
+C. 6 (Common)|Biomes=A. Snowy Plains, Swamps, Meadows
+
+
+B. Old Growth Birch Forests, Savanna Plateaus, 
+Windswept Savannas
+
+C. Plains, Groves, Sunflower Plains, Savannas|Health=60 (30 hearts)|Armor=10 (5 icons)|Damage=6 (3 hearts)|Walking=0.37|Flying=0.08|Reg_Ability=Magma bolt|Special_Ability=Ram|Ridable=Yes|Breeding_food=Suspicious stew|Breeding_cooldown=40 minutes|Hatching_time=20 minutes|Growing_time=83 minutes|image=Meatlug.webp|caption-image=Meatlug Gronckle Variant|pack_size=A. 1-2
+
+B. 2-3
+
+C. 1-2}}
+
+=== Table of contents ===
+# Trivia
+# Image gallery
+# References
+
+
+
+== Trivia ==
+
+* Feeding Gronckles granite, diorite, deepslate, or stone will have them produce raw [[Gronckle Iron]] which can be smelted in a furnace or crafted into [[Gronckle Iron|Gronckle iron ingots]]
+* Naming any Gronckle "Meatlug" with a nametag will cause it to change into the Meatlug (10) variant
+* Gronckle eggs explode and create fire when they hatch in a 3 block radius around them.
+/summon isleofberk:gronckle ~ ~ ~ {variant:#}
+
+== Image Gallery ==
+<gallery>
+File:Hjarta Gronckle.webp|Variant 1 "Hjarta"
+File:Jr Tuffnut Jr.webp|Variant 2 "Junior Tuffnut Junior"
+File:Gronckle.webp|Variant 3 "Gronckle"
+File:Cheesemonger.webp|Variant 4 "Cheesemonger"
+File:Exiled Gronckle.webp|Variant 5 "Exiled"
+File:Rubblegrubber.webp|Variant 6 "Rubblegrubber"
+File:Barn.webp|Variant 7 "Barn"
+File:Crumble.webp|Variant 8 "Crumble"
+File:Yawnckle.webp|Variant 9 "Yawnckle"
+File:Meatlug.webp|Variant 10 "Meatlug"
+</gallery>
+
+
+== References ==
+<ref>[https://gacmdteam.wixsite.com/isleofberk/dragons]Images</ref>
+<references />
+[[Category:Tier Two]]

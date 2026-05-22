@@ -1,0 +1,29 @@
+{{Dragon|title1=Light Fury|Taming_Food=Salmon, Cod, or Tropical fish|Taming_Conditions=No weapons or armor equipped
+Invisibility effect on player|Spawn_rate=3 (Rare)|Biomes=Jagged Peaks, Frozen Peaks, Windswept Forests, Birch Forests, Old Growth Birch Forests.|Health=60 (30 hearts)|Damage=2 (1 heart)|Walking=0.4|Flying=0.2|Reg_Ability=Plasma blast|Special_Ability=Invisibility|Ridable=Yes|Breeding_food=Honeycomb|Breeding_cooldown=80 minutes|Hatching_time=40 minutes|Growing_time=80 minutes|image=Light Fury.webp|caption-image=Light Fury|Armor=0|pack_size=0-1}}
+
+===  Table of contents ===
+# Trivia
+# Image Gallery
+# References
+
+== Trivia ==
+
+* A Light Fury and a [[Night fury|Night Fury]] can be bred to make a [[Night Light]]
+* Variant 5 "Sveinn Grogaldr" has a lower chance of spawning at 1/20 the normal rate.
+/summon isleofberk:light_fury ~ ~ ~ {variant:#}
+
+== Image gallery ==
+<gallery>
+File:Sveinn.webp|Variant 1 "Sveinn" 
+File:Drottinn.webp|Variant 2 "Drottinn"
+File:Grogaldr.webp|Variant 3 "Grogaldr"
+File:Drottinn Grogaldr.webp|Variant 4 "Drottinn Grogaldr"
+File:Sveinn Grogaldr.webp| Variant 5 "Sveinn Grogaldr"
+File:Light Fury.webp|Variant 6 "Light Fury"
+</gallery>
+
+
+== References ==
+<ref>[https://gacmdteam.wixsite.com/isleofberk/dragons] Images</ref>
+<references />
+[[Category:Tier Four]]

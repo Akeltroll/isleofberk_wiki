@@ -1,0 +1,19 @@
+{{Dragon|title1=Lead Speed Stinger|image=Ice breaker.webp|caption-image=Ice Breaker Variant|Taming_Food=N/A|Taming_Conditions=Can't be tamed|Spawn_rate=? -Uncommon/Rare|Biomes=Stony Peaks
+Jagged Peaks Meadows Deep Frozen Oceans Frozen Oceans Ice Spikes Snowy Planes Jungles Bamboo Jungles Sparse Jungles Taiga Old Growth Spruce Jungles|Health=60 (30 hearts)|Armor=0|Damage=8 (4 hearts)|Walking=0.4|Flying=N/A|Special_Ability=Paralyzing sting|Ridable=No|Breeding_food=N/A|Breeding_cooldown=N/A|Hatching_time=|Growing_time=}}
+
+== Trivia ==
+
+* Lead Speed Stingers always spawn with seven normal speed stingers around them
+* Lead Speed Stingers are differentiated by their more defined and complex colours, and bigger frame.
+* They drop around 600 exp when killed
+
+== Image Gallery ==
+<gallery>
+File:Floutscout.webp|Variant 1 "Floutscout" 
+File:Ice breaker.webp|Variant 2 "Ice Breaker"
+File:Sweet stinger.webp|Variant 3 "Sweet Stinger"
+File:Speed stinger.webp|Variant 4 "Speed Stinger"
+</gallery>
+
+=== References ===
+Credits to the [https://gacmdteam.wixsite.com/isleofberk/dragons official wiki] for the renders

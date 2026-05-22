@@ -1,0 +1,24 @@
+{{Dragon|title1=Speed stinger|Taming_Food=Rabbit, Salmon, or Chicken|Taming_Conditions=Must be tamed as a hatchling|Spawn_rate=? -Uncommon/Rare|Biomes=Stony Peaks, Jagged Peaks, Meadows, Deep Frozen Oceans, Frozen Oceans, Ice Spikes, Snowy Planes , Jungles, Bamboo Jungles, Sparse Jungles, Taiga, Old Growth Spruce Jungles|Health=40 health (20 hearts)|Damage=4 (2 hearts)|Walking=0.4|Special_Ability=Paralyzing sting|Ridable=No|Breeding_food=Suspicious stew|Breeding_cooldown=20 minutes|Hatching_time=10 minutes|Growing_time=83 minutes|image=Speed stinger.webp|caption-image=Speed stinger|Armor=0|Flying=N/A|Reg_Ability=N/A}}
+=== Trivia ===
+
+* Wild speed stingers will attack all "livestock animals" (cows, sheep, chicken, pig) whereas tamed speed stingers will exclusively attack pigs
+* All speed stingers can walk on water
+* Due to the fact that all speedstingers generate with their nest structure, they are not in the spawnweights config.
+* They can jump up to 2 blocks high
+* Speedstingers regenerate in their structures over time.
+* It is not uncommon to see variant 4 speedstingers in the same nests as the other variants
+* Speedstingers can't be ridden
+* you can find up to 12 eggs in a den 
+
+== Image gallery ==
+<gallery>
+File:Floutscout.webp|Variant 1 "Floutscout" 
+File:Ice breaker.webp|Variant 2 "Ice breaker"
+File:Sweet stinger.webp|Variant 3 "Sweet stinger"
+File:Speed stinger.webp|Variant 4 "Speed stinger"
+</gallery>
+
+== References ==
+<ref>[https://gacmdteam.wixsite.com/isleofberk/dragons] Images</ref>
+<references />
+[[Category:Tier Four]]

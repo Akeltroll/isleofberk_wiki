@@ -1,0 +1,47 @@
+{{Dragon|title1=Monstrous Nightmare|Taming_Food=Pork and Mutton|Taming_Conditions=No armor or weapons equipped
+Fire resistance effect on player|Spawn_rate=A. 1 (Rare)
+
+B. 1 (Rare)|Biomes=A. Badlands, Wooded Badlands, Eroded Badlands 
+
+
+B. Windswept Hills, Windswept Gravelly Hills, Windswept Forests|Health=120 (60 hearts)|Armor=4 (2 icons)|Damage=7 damage (3.5 hearts)|Walking=0.04|Flying=0.14|Reg_Ability=Fire breath|Special_Ability=Fire cloak|Ridable=Yes|Breeding_food=Suspicious stew|Breeding_cooldown=80 minutes|Hatching_time=160 minutes|Growing_time=83 minutes|image=Hookfang.webp|caption-image=Monstrous Nightmare|pack_size=A. 0-1
+
+B. 0-1}}
+
+=== Table of contents ===
+# Trivia
+# Image gallery
+# References
+
+== Trivia ==
+
+* It's ability will burn the rider once they dismount, it's recommended to submerge the dragon in water before dismounting (this toggles off the ability)
+* It is unable to use it's ability in the rain
+* Naming any Monstrous Nightmare "Hookfang" with a nametag causes it to change into the Hookfang (10) variant
+* There is a rare Melanistic variant (9) that has a 1/20 spawnrate in the wild. Eggs have a significantly lower spawnrate for this variant.
+* Variant 5 "Wolfsbane" is probably a reference to the Rise of Berk mobile game, it is the first monstrous nightmare obtained in the mobile app.
+* There are now 14 variants in total.
+/summon isleofberk:monstrous_nightmare ~ ~ ~ {variant:#}
+
+== Image gallery ==
+<gallery>
+File:Blue.webp|Variant 1 "Mountain"
+File:Yellow.webp|Variant 2 "Bloodroot"
+File:Mint.webp|Variant 3 "Fangmaster"
+File:Pink.webp|Variant 4 "Burlystorm"
+File:Cyan.webp|Variant 5 "Wolfsbane?
+File:Orange.webp|Variant 6 "Exiled"
+File:Green.webp|Variant 7 "Hellebore"
+File:Magenta.webp|Variant 8 "Carnation"
+File:Black.webp|Variant 9 "Cardinal"
+File:Variant 10.png|Variant 10 "Sunfyre"
+File:Variant 11 Nightmare.png|Variant 11 "Rainbow"
+File:Variant 12.png|Variant 12 "Tsukarion"
+File:Variant 13.png|Variant 13 "Fanghook"
+File:Hookfang.webp|Variant 14 "Hookfang"
+</gallery>
+
+== References ==
+<ref>[https://gacmdteam.wixsite.com/isleofberk/dragons] Images</ref>
+<references />Updated April 2025
+[[Category:Tier Four]]

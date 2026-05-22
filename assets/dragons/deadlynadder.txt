@@ -1,0 +1,72 @@
+{{DISPLAYTITLE:Deadly Nadder}}
+{{Dragon|title1=Deadly nadder|Health=50 (25 hearts)|Armor=2 (1 icon)|Damage=8 (4 hearts)|Walking=0.4|Flying=0.14|Reg_Ability=Fire breath|Special_Ability=Spine shot (20 damage per 2 spines)|Ridable=Yes|Taming_Food=Chicken (at least 30 pieces)|Taming_Conditions=No armor or weapons equipped|Spawn_rate=A. 2 (Uncommon)
+
+
+B. 4 (Uncommon)
+
+C. 6 (Common)
+
+D. 9 (Very common)|Breeding_food=Suspicious stew|Breeding_cooldown=40 minutes|Hatching_time=20 minutes|Growing_time=100 minutes|image1=https://static.wikia.nocookie.net/isle-of-berk-mod/images/8/81/Deadly_nadder.webp/revision/latest?cb=20230720001715|image=Deadly_nadder.webp|caption-image=Stormfly Nadder Variant|Biomes=A. Snowy plains, Meadows
+
+
+B. Windswept Hills, Windswept Gravelly Hills, Windswept Forests.
+
+C. Sparse Jungles, Savannas, Savanna Plateaus.
+
+D. Groves Forests, Flower Forests, Birch Forests, Old Growth Birch Forests, Windswept Savannas.|pack_size=A. 2-3
+
+
+B. 2-4
+
+C. 2-4
+
+D. 1-3}}
+
+=== Table of contents ===
+# Image galley
+# Trivia
+# Gallery
+
+== Trivia ==
+
+* Naming a Nadder "Stormfly" with a name tag will give the dragon the variant 11 skin, this will not change back if the dragon is renamed
+/summon isleofberk:deadly_nadder ~ ~ ~ {variant:#}
+
+== Image gallery ==
+<gallery>
+File:Deadly nadderB1.png|Variant 1 "Deadly Nadder"
+File:Deadly nadderB2.png|Variant 2 "Kingstail"
+File:Deadly nadderB3.png|Variant 3 "Scardian"
+File:Deadly nadderB4.png|Variant 4 "Springshedder"
+File:Deadly nadderB5.png|Variant 5 "Hjarta"
+File:Deadly nadderB6.png|Variant 6 "Bork week"
+File:Deadly nadderB7.png|Variant 7 "Flystorm"
+File:Deadly nadderB8.png|Variant 8 "Hjaldr"
+File:Deadly nadderB9.png|Variant 9 "Barklethorn"
+File:Deadly nadderB10.png|Variant 10 "Lethal Lancebeak"
+File:Seedling Stormpest.png|Variant 11 "Seedling Stormpest"
+File:Deadly nadder.webp|Variant 12 "Stormfly"
+</gallery>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== References ==
+
+Variant renders 1-10 by NaniTheDucc
+
+Updated April 2025<references />
+[[Category:Tier Two]]

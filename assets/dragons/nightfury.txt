@@ -1,0 +1,42 @@
+{{Dragon|title1=Night fury|Taming_Food=Salmon, cod, or tropical fish|Taming_Conditions=No armor or weapons equipped
+Night vision effect on player|Spawn_rate=2 (Rare)|Biomes=Snowy Slopes, Jagged Peaks, Frozen Peaks,  Windswept Hills, Windswept Gravelly Hills, Stony Peaks|Health=80 (40 hearts)|Damage=4 (2 hearts)|Walking=0.4|Flying=0.2|Reg_Ability=Plasma blast|Ridable=Yes|Breeding_food=Honeycomb|Breeding_cooldown=80 minutes|Hatching_time=40 minutes|Growing_time=83 minutes|image=Night fury.webp|caption-image=Night fury variant|Special_Ability=Lightning Strike|Armor=2 (1 icon)|pack_size=0-1}}
+
+== Trivia ==
+* Using a name tag to name any Night Fury "Toothless" will give it a new skin that resembles Toothless from the original How To Train Your Dragon trilogy
+* A Night Fury and a [[Light fury|Light Fury]] can be bred to make a [[Night Light]]
+*
+*
+* There is a rare albino variant of the Night Fury with a 1/1000 spawnrate
+* In order to use a Night Fury's special ability, you must charge up a plasma blast to the highest level by holding the special ability key.
+
+== Summoning Specific Variants ==
+If you want a specific variant of the nightfury and you are playing on the 1.18.2 version, the command below should allow you to get them. (You replace the # with the Variant Number.)
+
+/summon isleofberk:night_fury ~ ~ ~ {variant:#}
+
+If the above command doesn't work, use this command:
+
+/summon isleofberk:night_fury ~ ~ ~ {VariantName: ""}
+
+(insert the variant name in all lowercase between the quotation marks, use an underscore in place of spaces)
+
+Variant numbers listed in Image Gallery.
+
+== Image gallery ==
+<gallery>
+File:Variant 1.png|Variant 1 "Sentinel" night fury
+File:Karma.webp|Variant 2 "Karma" night fury
+File:Arsian.webp|Variant 3 "Arsian"
+File:Svartr.webp|Variant 4 "Svartr" night fury
+File:Albino.webp|Variant 5 "Albino" albino night fury
+File:shadow flare.webp|Variant 8 "Night fury"
+File:shadowflare.webp|Hidden variant 7 "Toothless"
+</gallery>
+
+== References ==
+<ref>[https://gacmdteam.wixsite.com/isleofberk/dragons] Images</ref>
+
+Night 
+
+<references group="Girl" />
+[[Category:Tier Four]]
